@@ -10,7 +10,7 @@ github_username:  mojing1999
 disqus: justin
 
 # Build settings
-markdown: rdiscount
+markdown: kramdown
 
 
 permalink: /:year/:month/:day/:title.html
