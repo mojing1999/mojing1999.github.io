@@ -9,7 +9,7 @@ tags: [markdown, study]
 
 ---
 
-
+同一篇文章，在[作业部落](https://www.zybuluo.com/mojing1999/note/738732) Markdown 的支持就好很多。
 
 ---
 
