@@ -13,7 +13,7 @@ permalink: /resume/
 | 婚否: | 已婚 | 毕业学校: | 河北大学 |
 | 学历: | 本科 | 专业: | 数学与应用数学 |
 | 电话:   | 13640978545 | Email:  | mojing1999@gmail.com |
-| 联系方式: | 深圳南山区前海湾 |  |  
+| 网站: | [http://www.justinmo.video/](http://www.justinmo.video/) | Github: | [https://github.com/mojing1999](https://github.com/mojing1999)  |  
 
 ---
 
