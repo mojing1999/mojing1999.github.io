@@ -10,7 +10,7 @@ tags: [codec, decode, encode]
 ---
 
 使用Intel/Nvidia显卡加速来处理音视频编解码。
-由于工作中多媒体处理比较多， 把自己的这这方面的经验总结，开源到[Github](https://github.com/mojing1999/video_codec)上, 欢迎指教。
+由于工作中多媒体处理比较多， 把自己的这这方面的经验总结，开源到[Github/mojing1999](https://github.com/mojing1999/video_codec)上, 欢迎指教。
 整个项目主要包括：
 1. 使用Intel Media SDK，封装解码和编码库。
 2. 使用Nvidia CUDA TOOLKIT，封装成解码和编码库。
@@ -206,3 +206,22 @@ Decode FPS:     252.969562 fps
 ```
 
 更多测试，可以同时解码多路视频。
+
+
+#### more ...
+
+
+
+----
+### 如果你喜欢作者的项目或者文章， 请支持原创
+微信
+
+
+![微信](/media/weixin.png)
+
+
+
+支付宝
+
+
+![支付宝](/media/zhifubao.png)
