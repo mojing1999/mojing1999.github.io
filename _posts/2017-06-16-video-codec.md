@@ -175,9 +175,11 @@ jm_intel_dec_deinit()
 ```
 
 #### 测试程序
-OS: Win10
-CPU: i7-6700
-Memory: 16 GB
+| | |
+| --- | --- |
+| OS | Win10 |
+| CPU | i7-6700 |
+| Memory | 16 GB |
 
 - 测试解码H.264 文件1， 分辨率为 4096 x 2048 ，输出为YUV420 NV12，不写硬盘， 结果见如下：
 
