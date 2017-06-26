@@ -213,6 +213,11 @@ Decode FPS:     252.969562 fps
 
 
 ## 2. Nvidia CUDA SDK
+
+NVIDIA VIDEO DECODER(NVDEC) INTERFACE 架构和Intel Media SDK有些不一样，NVDEC 要求输入为每帧解码数据，所以测试程序会找到每一个 NALU 作为输入数据。 停止输入数据后， 需要继续输出解码器里缓存的帧。
+TODO: NV dec 解码器调用的文档。
+
+
 - NV decode
 
 测试结果：
