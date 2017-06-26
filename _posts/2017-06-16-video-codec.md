@@ -20,7 +20,7 @@ tags: [codec, decode, encode]
 
 
 ---
-### 1. Intel Media SDK
+## 1. Intel Media SDK
 Intel Media SDK 是 Intel 推出的基于Intel集显的编解码硬件加速技术。详见[Intel Media SDK](). Media SDK 提供了 Decoder，VPP，Encoder，让用户方便的处理视频流。
 
 
@@ -207,7 +207,43 @@ Decode FPS:     252.969562 fps
 ==========================================
 ```
 
+
+
 更多测试，可以同时解码多路视频。
+
+
+## 2. Nvidia CUDA SDK
+- NV decode
+
+测试结果：
+
+测试文件1， 分辨率 4096 x 2048， 解码效率比Intel Media SDK稍低， 检查代码后再测试。
+
+```
+==========================================
+Codec:          H.264
+Display:        4096 x 2048
+Pixel Format:   NV12
+Frame Count:    283
+Elapsed Time:   2849 ms
+Decode FPS:     99.333099 fps
+==========================================
+
+```
+
+测试文件2， 分辨率为2704 x 1520，解码效率比Intel Meida SDK稍高一点。
+```
+==========================================
+Codec:          H.264
+Display:        2704 x 1520
+Pixel Format:   NV12
+Frame Count:    1363
+Elapsed Time:   4717 ms
+Decode FPS:     288.954844 fps
+
+==========================================
+```
+
 
 
 #### more ...
