@@ -42,7 +42,7 @@ JMGL_PANO 是Justin开源的一个全景视频播放器（[Github](https://githu
  - GLFW 创建显示窗口，处理鼠标键盘输入
 
 
-## 3. 使用
+## 4. 使用
  - Usage: jmgl_pano [option] input_file
  - option: -d decode type, user can select decode library.
     - 0: Auto, 1: Nvidia, 2: Intel, 3: ffmpeg
@@ -78,7 +78,7 @@ JMGL_PANO 是Justin开源的一个全景视频播放器（[Github](https://githu
 
 
 
-## 3. TODO list
+## 5. TODO list
 - [x] 处理键盘输入
 - [x] 处理鼠标输入
 - [ ] 处理触摸屏输入
