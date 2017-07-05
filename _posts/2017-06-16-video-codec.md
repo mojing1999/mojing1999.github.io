@@ -150,11 +150,18 @@ jm_nvdec_deinit()
 
 
 #### 4. 测试程序
-OS  : 	Win10
-CPU : 	i7-6700 
-集显：	Intel HD Graphics 530
-显卡：	Nvidia GeForce GTX 970
-Memory: 16 GB
+- 开发测试平台
+	- OS  : 	Win10
+	- CPU : 	i7-6700 
+	- 集显：	Intel HD Graphics 530
+	- 显卡：	Nvidia GeForce GTX 970
+	- Memory: 16 GB
+
+
+
+
+
+
 
 - test_intel_dec
 
@@ -170,11 +177,11 @@ Memory: 16 GB
 
 
 
-更多测试，可以同时解码多路视频。
+更多优化测试，目前没有实现更深层的优化。
 
 ---
 
-### TODO
+### TODO List
 
 - [x] Intel decode
 - [x] Test intel decode
