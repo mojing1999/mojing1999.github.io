@@ -97,6 +97,52 @@ jm_intel_dec_deinit()
 	 
 ---
 
+### intel_enc
+
+#### - 导出 API
+参见 jm_intel_enc.h 头文件。
+
+#### - 使用
+
+参见项目 test_intel_enc 。 工程里包含头文件 jm_intel_enc.h 和导入库 intel_enc.lib
+
+```
+#include "jm_intel_enc.h"
+#pragma comment(lib,"intel_enc.lib")
+```
+
+#### 支持编码格式
+
+```
+	0 - H.264 / AVC
+	1 - H.265 / HEVC
+	2 - MPEG2 
+```
+
+
+#### test_intel_enc 例子测试结果
+```
+==========================================
+Codec:          H.264
+Source: 	1920 x 960
+Pixel Format:   NV12
+Frame Count:    144
+Elapsed Time:   580 ms
+Encode FPS:     248.275862 fps
+==========================================
+```
+
+#### TODO list
+- [ ] more codec encode test
+- [ ] document
+
+
+
+---
+
+
+
+
 ## 3. 基于 Nvidia 显卡硬件编解码加速
 ### nv_dec
 
@@ -187,11 +233,12 @@ jm_nvdec_deinit()
 - [x] Test intel decode
 - [x] Nvidia decode
 - [x] Test nvdia decode
-- [ ] intel encode
+- [x] intel encode
 - [ ] intel transcode
 - [ ] nvidia encode
 - [ ] nvidia transcode
-- [ ] FFmpeg integration
+- [x] FFmpeg integration
+- [x] test_player (SDL2)
 
 
 #### more ...
