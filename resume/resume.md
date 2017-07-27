@@ -13,7 +13,7 @@ permalink: /resume/
 | 婚否: | 已婚 | 毕业学校: | 河北大学 |
 | 学历: | 本科 | 专业: | 数学与应用数学 |
 | 电话:   | 13640978545 | Email:  | mojing1999@gmail.com |
-| 网站: | [http://www.justinmo.video/](http://www.justinmo.video/) | Github: | [https://github.com/mojing1999](https://github.com/mojing1999)  |  
+| 网站: | [Blog](http://www.justinmo.video/) | Github: | [open source](https://github.com/mojing1999/video_codec)  |  
 
 ---
 
@@ -25,6 +25,12 @@ permalink: /resume/
 | 岗位: | 高级程序员 / 产品架构师 | 地区: | 深圳 |
 
 
+---
+## 开源项目
+| | |
+| --- | --- |
+| 音视频编解码 | [video_codec](https://github.com/mojing1999/video_codec) |
+| OpenGL 全景播放器 | [jmgl_pano](https://github.com/mojing1999/jmgl_pano) |
 ---
 
 ## 工作经历
@@ -43,10 +49,10 @@ http://www.avatarpi.com
 - 负责消费级单/双镜头全景相机开发。
 - 负责行业级多镜头全景相机视频软件架构及开发。
 - 负责全景视频流媒体直播(支持Youtube全景直播)及服务器架构。
-- 负责音视频编解码，包括H.264/H.265 4K/8K 分辨率视频 Intel/Nvidia CUDA平台硬件编码和解码，音频采集和AAC编码， RTMP/RTSP全景音视频直播， 支持Youtube全景音视频直播。
+- 负责音视频编解码，包括H.264/H.265 4K/8K 分辨率视频 Intel/Nvidia CUDA平台硬件编码和解码，音频采集和AAC编码([开源项目](https://github.com/mojing1999/video_codec) )， RTMP/RTSP全景音视频直播， 支持Youtube/facebook全景音视频直播。
 - 负责全景播放器架构及开发（支持PC，Android，iOS，Web 和 VR 眼镜平台）。
 - 基于CUDA平台的视觉开发，熟悉开源项目TensorFlow开发，熟悉OpenCV，OpenGL 等图像处理技术。
-- 基于OpenGL的全景视频技术开发。
+- 基于OpenGL的全景视频技术开发 ([开源项目](https://github.com/mojing1999/jmgl_pano))。
 
 
 
