@@ -27,10 +27,13 @@ permalink: /resume/
 
 ---
 ## 开源项目
-| | |
-| --- | --- |
-| 音视频编解码 | [video_codec](https://github.com/mojing1999/video_codec) |
-| OpenGL 全景播放器 | [jmgl_pano](https://github.com/mojing1999/jmgl_pano) |
+
+ 项目 | 链接 
+ --- | --- 
+音视频编解码			: | [video_codec](https://github.com/mojing1999/video_codec) 
+OpenGL 全景播放器		: | [jmgl_pano](https://github.com/mojing1999/jmgl_pano)
+
+
 ---
 
 ## 工作经历
